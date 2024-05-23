@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- hoja de estilos css-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header class="header-contacto">
+
+        <div class="menu container">
+            <a href="#" class="logo">LOGO</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="/assets/img/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <div class="formulario">
+            <form method="post">
+              <h2>contacto</h2>
+              <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" />
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono" />
+                <label for="Email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Correo Electronico"
+                />
+                <label for="zona de contacto" name="zona" id="zona"> Zona de contacto </label>
+                <select name="Provincia" id="Provincia">
+                  <option value="capital">CABA</option>
+                  <option value="interior">Interior BA</option>
+                  <option value="zona norte">Zona Norte BA</option>
+                  <option value="zona sur">Zona Sur BA</option>
+                  <option value="zona este">Zona Este BA</option>
+                  <option value="zona oeste">Zona Oeste BA</option>
+                </select>
+                <p></p>
+                <label for="Mensaje">Mensaje</label>
+                <textarea
+                  name="message"
+                  id="nessage"
+                  cols="30"
+                  rows="5"
+                  placeholder="Mensaje"
+                ></textarea>
+                <div class="form-txt">
+                  <a href="#">Politica de privacidad</a>
+                  <a href="#">Terminos y condiciones</a>
+                </div>
+                <div>
+                  <input type="checkbox" name="newsletter" id="newsletter"> Deseo recibir novedades acerca de nuevos productos.<br>
+                </div>
+              </div>
+              <input class="btn" type="submit" value="Enviar" />
+            </form>
+          </div>
+
+
+
+
+
+
+
+</body>
+</html>
