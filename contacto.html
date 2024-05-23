@@ -32,16 +32,17 @@
             <form method="post">
               <h2>contacto</h2>
               <div class="input-group">
-                <label for="name">Nombre</label>
-                <input type="text" name="name" id="name" placeholder="Nombre" />
-                <label for="phone">Telefono</label>
-                <input type="tel" name="phone" id="phone" placeholder="Telefono" />
-                <label for="Email">Email</label>
+                <label for="name">Nombre *</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required />
+                <label for="phone">Telefono *</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono" required/>
+                <label for="Email">Email *</label>
                 <input
                   type="email"
                   name="email"
                   id="email"
                   placeholder="Correo Electronico"
+                  required
                 />
                 <label for="zona de contacto" name="zona" id="zona"> Zona de contacto </label>
                 <select name="Provincia" id="Provincia">
