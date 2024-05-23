@@ -241,7 +241,9 @@ p {
 .blog {
     padding: 100px 0;
     text-align: center;
+    
 }
+
 
 .blog-content {
     display: flex;
