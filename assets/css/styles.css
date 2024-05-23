@@ -16,18 +16,18 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-/* */
-.header {
-    background-image: linear-gradient(
+/* linear-gradient(
         rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
-    url(/assets/img/fondogris-index.jpg);
+        rgba(0,0,0,0.7)), */
+.header {
+    
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
     display: flex;
     align-items: center;
+    background-image: url(/assets/img/fondogris-index.jpg);
 }
 
 .menu {
@@ -217,11 +217,12 @@ body {
 }
 
 .general-3 {
-    background-image: url(/assets/img/turismo-calafate.png);
+    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
+    background-image: url(/assets/img/turismo-calafate.png);
 }
 
 h2 {
