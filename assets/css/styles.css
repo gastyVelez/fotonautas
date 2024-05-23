@@ -152,7 +152,7 @@ body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)),
-        url(../img/fondo-madera.jpg);
+        url(../img/turismo-calafate.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,12 +217,12 @@ body {
 }
 
 .general-3 {
-    
+    background-image: url(/assets/img/turismo-calafate.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-    background-image: url(/assets/img/turismo-calafate.png);
+    
 }
 
 h2 {
