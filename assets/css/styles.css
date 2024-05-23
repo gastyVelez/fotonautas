@@ -20,10 +20,7 @@ body {
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)), */
 .header {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)),
-    url(/assets/img/fondogris-index.jpg);
+    background-color: #000000;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,10 +149,7 @@ body {
 }
 
 .services {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)),
-        url(/assets/img/fondo-madera.jpg);
+    background-color: #414247;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,7 +186,7 @@ body {
 }
 
 .services img {
-    width: 25px;
+    width: 300px;
     margin-bottom: 15px;
 }
 
@@ -212,17 +206,18 @@ body {
 }
 
 .general-2 {
-    background-image: 
-    url(/assets/img/turismo-mendoza.png);
-    background-position: center center;
+    display: flex;
+    justify-content: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
 }
 
 .general-3 {
-    background-image: url(/assets/img/turismo-calafate.png);
-    background-position: center center;
+    display:flex;
+    justify-content: center;    
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
