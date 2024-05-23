@@ -372,7 +372,7 @@ link h3 {
     }
 
     .general-2, .general-3 {
-        display: none;
+        display: flex;
     }
 
     .blog {
