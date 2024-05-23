@@ -10,6 +10,10 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(/assets/img/fondogris-index.jpg);
 }
 
 .container {
