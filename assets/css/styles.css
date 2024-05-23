@@ -20,14 +20,17 @@ body {
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)), */
 .header {
-    
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+    url(/assets/img/fondogris-index.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
     display: flex;
     align-items: center;
-    background-image: url(/assets/img/fondogris-index.jpg);
+    
 }
 
 .menu {
@@ -209,7 +212,8 @@ body {
 }
 
 .general-2 {
-    background-image: url(/assets/img/turismo-mendoza-2.png);
+    background-image: 
+    url(/assets/img/turismo-mendoza.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
