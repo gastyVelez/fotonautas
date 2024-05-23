@@ -16,15 +16,16 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-/*linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)), */
+/* */
 .header {
-    background-image: url(/assets/img/fondogris-index.jpg);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+    url(/assets/img/fondogris-index.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
 }
