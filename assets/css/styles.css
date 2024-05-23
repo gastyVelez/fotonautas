@@ -21,9 +21,6 @@ body {
         rgba(0,0,0,0.7)), */
 .header {
     background-color: #000000;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 50vh;
     display: flex;
     align-items: center;
@@ -150,9 +147,6 @@ body {
 
 .services {
     background-color: #414247;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
     padding: 100px 0;
 }
@@ -207,21 +201,14 @@ body {
 
 .general-2 {
     display: flex;
-    justify-content: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    justify-content:center;
     width: 50%;
 }
 
 .general-3 {
     display:flex;
     justify-content: center;    
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    
+    width: 50%;   
 }
 
 h2 {
@@ -403,16 +390,9 @@ link h3 {
 
 /* estilos del formulario */
 .header-contacto {
-    background-image: linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
-        url(./assets/img/fondogris.jpg);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000000;
     min-height: 10vh;
     display: flex;
-    align-items: center;
 }
 
 
