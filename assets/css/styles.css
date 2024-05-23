@@ -217,7 +217,7 @@ body {
 }
 
 .general-3 {
-    background-image: url(/assets/img/turismo-calafate.png);
+    display: flex;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
