@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   
     <!-- hoja de estilos css-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="shortcut icon" href="./assets/img/iconocamara.ico">
     <title>Contacto</title>
 </head>
 <body>
@@ -28,24 +29,32 @@
             </nav>
         </div>
     </header>
-        <div class="formulario">
-            <form method="post">
+    <!-- campos del formulario -->
+        <div class="formulario-content">
+
+            <form action="" class="formulario" id="formulario">
               <h2>contacto</h2>
+
               <div class="input-group">
-                <label for="name">Nombre *</label>
-                <input type="text" name="name" id="name" placeholder="Nombre" required />
-                <label for="phone">Telefono *</label>
-                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Telefono" required/>
-                <label for="Email">Email *</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Correo Electronico"
-                  required
-                />
+                <!-- campo nombre -->
+                <div class="grupo-campo" id="grupo__nombre">
+                  <label for="name">Nombre *</label>
+                  <input type="text" name="nombre" id="nombre" placeholder="Nombre" required/>
+                </div>
+                <!-- campo telefono -->
+                <div class="grupo-campo" id="grupo__telefono">
+                  <label for="phone">Telefono *</label>
+                  <input type="tel" name="phone" id="telefono"  placeholder="Telefono" required/>
+                </div>
+                <!-- campo email -->
+                <div class="grupo-campo" id="grupo__correo">  
+                  <label for="correo">Email *</label>
+                  <input type="email" name="correo" id="correo" placeholder="Correo Electronico" required/>
+                </div>
+                <!-- select zona -->  
+                <div class="grupo-campo">
                 <label for="zona de contacto" name="zona" id="zona"> Zona de contacto </label>
-                <select name="Provincia" id="Provincia">
+                <select name="Provincia" id="Provincia" required>
                   <option value="capital">CABA</option>
                   <option value="interior">Interior BA</option>
                   <option value="zona norte">Zona Norte BA</option>
@@ -55,30 +64,19 @@
                 </select>
                 <p></p>
                 <label for="Mensaje">Mensaje</label>
-                <textarea
-                  name="message"
-                  id="nessage"
-                  cols="30"
-                  rows="5"
-                  placeholder="Mensaje"
+                <textarea name="message" id="nessage" cols="30" rows="5" placeholder="Mensaje"
                 ></textarea>
-                <div class="form-txt">
-                  <a href="#">Politica de privacidad</a>
-                  <a href="#">Terminos y condiciones</a>
-                </div>
-                <div>
-                  <input type="checkbox" name="newsletter" id="newsletter"> Deseo recibir novedades acerca de nuevos productos.<br>
+
+              </div>
+                <div class="terminos">
+                  <input type="checkbox" name="terminos" id="terminos"> Acepto terminos y condiciones.<br>
                 </div>
               </div>
               <input class="btn" type="submit" value="Enviar" />
             </form>
           </div>
 
-
-
-
-
-
-
+          <script src="/assets/js/script.js"></script>
+         
 </body>
 </html>
