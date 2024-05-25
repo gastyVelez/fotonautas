@@ -274,6 +274,35 @@ link h3 {
     margin-bottom: 15px;
 }
 
+/* estilos de productos.html */
+.carousel-inner {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#productos_categorias {
+    display: flex;
+    margin: 5rem;
+}
+
+#boton-categoria {
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* query de responsive */
 @media(max-width:991px) {
 
     .menu {
@@ -392,12 +421,16 @@ link h3 {
     background-color: #000000;
     min-height: 10vh;
     display: flex;
+    padding: 5px;
+    align-items: center;
+    
 }
 
 .header-servicios {
     background-color: #000000;
     min-height: 10vh;
     display: flex;
+    align-items: center;
 }
 
 /* estilos del formulario */
