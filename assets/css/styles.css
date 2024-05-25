@@ -388,12 +388,25 @@ link h3 {
 
 }
 
+.header-productos {
+    background-color: #000000;
+    min-height: 10vh;
+    display: flex;
+}
+
+.header-servicios {
+    background-color: #000000;
+    min-height: 10vh;
+    display: flex;
+}
+
 /* estilos del formulario */
 .header-contacto {
     background-color: #000000;
     min-height: 10vh;
     display: flex;
 }
+
 
 
 .formulario-content {
