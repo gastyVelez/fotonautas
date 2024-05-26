@@ -282,6 +282,16 @@ link h3 {
     
 }
 
+.titulo-categoria h2 {
+    font-size: 3rem;
+    line-height: 80px;
+    color: #060606;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+}
+
 #productos_categorias {
     display: flex;
     margin: 5rem;
@@ -512,6 +522,7 @@ input::placeholder, textarea::placeholder {
 .btn:hover {
     background-color: #021d01;
 }
+
 
 
 
